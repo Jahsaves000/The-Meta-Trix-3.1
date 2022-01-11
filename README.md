@@ -168,7 +168,9 @@ a continuation of cs50 lecture 1 "C"
 
     char c = get_char("Do you agree? ");
 
-     if (c = "y")
+//|| equals syntaxical "or"
+
+     if (c == 'y' || c == 'Y')
   
   {
   
@@ -176,7 +178,7 @@ a continuation of cs50 lecture 1 "C"
     
   }
   
-    else if (c = "n")
+    else if (c == 'n'|| or c == 'N')
   
   {
   
