@@ -157,7 +157,7 @@ a continuation of cs50 lecture 1 "C"
   
 }  
 
-//new program
+//new program 1
 
 #incude <cs50.h>
 #include <stdio.h>
@@ -187,4 +187,232 @@ a continuation of cs50 lecture 1 "C"
   }
  
  }
+
+
+//new program 2
+
+
+    while (true)
+
+{
+
+        printf("hello, world\n")
+        
+}
+
+    int counter = 0;
+
+    int i = 
+
+    while (i < 50)
+
+{
+
+        printf("hello, world\n");
+        
+        i++; || i-- if we want to count down from 50
+}
+
+
+    for (int i = 0; i < 50; i++)
+
+{
+
+        printf("hello, world\n");
+        
+}
+
+
+#include <stdio.h>
+
+    void meow(void);
+
+    int main(void)
+
+{
+
+    for (int = 0; i < 3; i++)
+    
+    {
+    
+        meow();
+     
+    }
+        
+}
+
+    void meow(void)
+
+{
+
+    printf("meow\n");
+    
+}
+
+
+//another variation of this code
+
+
+
+#include <stdio.h>
+
+    void meow(void);
+
+    int main(void)
+
+{
+
+    for (int = 0; i < 3; i++)
+    
+    {
+    
+        meow(3);
+     
+    }
+        
+}
+
+    void meow(int n)
+
+{
+    for (int i = 0; i < n; i++)
+    
+    {
+
+    printf("meow\n");
+    
+    }
+    
+}
+
+
+
+//new program 3
+
+
+#include <cs50.h>
+#include <stdio.h>
+
+
+    int get_positive_int(void);
+    
+    int main(void)
+    
+ {
+ 
+    int i = get_positive_int();
+    
+    printf("%i\n", i);
+    
+ }
+ 
+ 
+    int get_positive_int(void)
+    
+ {
+ 
+    int n;
+    
+    do
+    
+    {
+    
+        n = get_int("Positive Integer: ");
+        
+     }
+     
+     while (n < 1);
+     
+     return n;
+     
+}
+
+
+
+//new program 4 (make 4 question marks)
+
+
+#include <cs50.h>
+#include <stdio.h>
+
+    int main(void)
+
+{
+
+    for (int i = 0; i < 4; i++)
+    
+    {
+    
+        printf("?");
+        
+     }
+     
+     printf("\n");
+     
+}
+
+
+//another variation of ^
+
+
+#include <cs50.h>
+#include <stdio.h>
+
+    int main(void)
+
+{
+
+    int n;
+    
+    do
+    
+    {
+    
+    n = get_int(Width: ")
+    
+    }
+    
+    while (n < 1);
+    
+    for (int i = 0; i < n; i++)
+    
+    {
+    
+        printf("?");
+        
+    }
+    
+    printf("\n");
+    
+}
+
+
+
+//another program 5 (make bricks)
+
+
+#include <cs50.h>
+#include <stdio.h>
+
+    int main(void)
+
+{
+
+    for (int i = 0; i <3; i++)
+    
+    {
+    
+        for (int j = 0; j <3; j++)
+    
+    
+            {
+            
+                printf("#");
+             
+            }
+            
+            printf("\n";
+    }
+    
+}
 
