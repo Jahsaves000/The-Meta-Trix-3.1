@@ -416,3 +416,56 @@ a continuation of cs50 lecture 1 "C"
     
 }
 
+
+/*this code came from 1:55:00 time slot odf lecture 1*/
+
+// Abstraction and scope
+
+#include <cs50.h>
+#include <stdio.h>
+//prototype
+int get_positive_int(void);
+
+int main(void)
+{
+    int i = get_positive_int();
+    printf{"%i\n", i);
+}
+
+// Prompt user for positive integer
+int get_positive_(void)
+{
+    int n;
+    do
+    {
+        n = get_int("Positive Integer: ");
+    }
+    while (n < 1);
+    return n;
+}
+
+
+//new code
+/* [make mario(2:04:12)]
+
+
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    //Get positive integer from user
+   int n;
+   do
+   {
+       n = get_int("Width: ");
+   }
+   while (n < 1);
+
+   //Print out that many question marks
+   for (int i = 0; i < n; i++)
+   {
+       printf("?");
+   }
+   printf("\n");
+}
